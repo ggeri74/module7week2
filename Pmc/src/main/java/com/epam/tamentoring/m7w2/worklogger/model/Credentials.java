@@ -12,15 +12,11 @@ public class Credentials {
 
     public static Credentials readFromConsole() {
         //hint: put code here to read from console
-
-        // --- hw ---
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter username: ");
         username = scanner.nextLine();
         System.out.println("Enter password: ");
         password = scanner.nextLine();
-        // --- /hw ---
-
         return new Credentials(username, password);
     }
 

@@ -11,13 +11,9 @@ public class PmcMainPage extends Page {
     }
 
     public ReportingTab selectTab(Tab tab) {
-
-        // --- hw ---
         if (driver.findElements(tab.getTab()).size() != 0) {
             driver.findElement(tab.getTab()).click();
         }
-        // --- hw ---
-
         return new ReportingTab(driver);
     }
 }

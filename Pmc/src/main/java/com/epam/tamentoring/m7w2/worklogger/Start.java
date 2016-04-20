@@ -32,10 +32,8 @@ public class Start {
     }
 
     private void pmcTest(WebDriver driver) throws InterruptedException {
-        // --- hw ---
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        // --- hw ---
 
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         PmcLoginPage loginPage = new PmcLoginPage(driver).open();
         PmcMainPage mainPage = loginPage.login(credentials);
         ReportingTab reportingTab = mainPage.selectTab(Tab.REPORTING);

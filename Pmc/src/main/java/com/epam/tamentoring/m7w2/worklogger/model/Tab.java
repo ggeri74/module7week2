@@ -8,7 +8,6 @@ public enum Tab {
 
     REPORTING(By.id("menuDropdownTab4"));
 
-    // --- hw ---
     private By tab;
     public By getTab() {
         return tab;
@@ -17,5 +16,4 @@ public enum Tab {
     Tab(By tabId) {
         this.tab = tabId;
     }
-    // --- hw ---
 }
