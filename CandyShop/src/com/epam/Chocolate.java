@@ -1,15 +1,15 @@
 package com.epam;
 
-public class Choclate extends Gifts {
+public class Chocolate extends Gifts {
     private enum ChoclateType {DARK,MILK,WHITE};
     private ChoclateType type = ChoclateType.MILK;
 
 
-    public Choclate() {
-        super("Milk Choclate",210);
+    public Chocolate() {
+        super("Milk Chocolate",210);
     }
 
-    public Choclate(String name, int price, int quantity, ChoclateType type) {
+    public Chocolate(String name, int price, int quantity, ChoclateType type) {
         super(name,price,quantity);
         this.type = type;
     }
