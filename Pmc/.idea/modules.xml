@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/worklogger.iml" filepath="$PROJECT_DIR$/worklogger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SeleniumHomeWorks.iml" filepath="$PROJECT_DIR$/SeleniumHomeWorks.iml" />
     </modules>
   </component>
 </project>
